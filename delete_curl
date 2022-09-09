@@ -1,5 +1,5 @@
 for i in {0..1000}
 do 
 	curl -k --location --request DELETE 'https://api-ssl.bitly.org/v4/bitlinks/bit.ly/abcdef' \
---header 'Authorization: Bearer 0057ad24da9659e47fa7389362fc1ffbeb7e1f96'
+--header 'Authorization: Bearer TOKEN'
 done
